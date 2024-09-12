@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "md_Login", "md_Login\md_Log
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThuVien", "ThuVien\ThuVien.csproj", "{1F712CF6-B79A-48F1-8723-6BB8B15E50A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdDB", "mdDB\mdDB.csproj", "{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1F712CF6-B79A-48F1-8723-6BB8B15E50A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F712CF6-B79A-48F1-8723-6BB8B15E50A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F712CF6-B79A-48F1-8723-6BB8B15E50A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -52,9 +53,25 @@ namespace ThuVien
             return LoginResult.Disabled;// Không hoạt động
             }
             return LoginResult.Success;// Đăng nhập thành công
-        }
+        }
+
+        public DataTable GetServerName()
+        {
+            SqlDataSourceEnumerator instance = SqlDataSourceEnumerator.Instance;
+            System.Data.DataTable table = instance.GetDataSources();
+            return table;
+        }
 
 
+        public DataTable GetDBName(string pServer, string pUser, string pPass)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("select name from sys.Databases", "Data Source=" + pServer + ";Initial Catalog=master;User ID=" + pUser + ";pwd = " + pPass + "");
+            da.Fill(dt);
+            return dt;
+        }
+
+        
 
 
 

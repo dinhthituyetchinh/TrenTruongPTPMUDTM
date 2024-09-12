@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ThuVien;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace md_Login
 {
-    public partial class ucLogin: UserControl
+    public partial class ucLogin : UserControl
     {
         QL_NguoiDung CauHinh = new QL_NguoiDung();
         public event EventHandler GetChangeKQ;
@@ -59,16 +61,16 @@ namespace md_Login
             {
                 ProcessLogin();// Cấu hình phù hợp xử lý đăng nhập
             }
-            //if (CauHinh.Check_Config() == 1)
-            //{
-            //    MessageBox.Show("Chuỗi cấu hình không tồn tại");// Xử lý cấu hình
-            //    ProcessConfig();
-            //}
-            //if (CauHinh.Check_Config() == 2)
-            //{
-            //    MessageBox.Show("Chuỗi cấu hình không phù hợp");// Xử lý cấu hình
-            //    ProcessConfig();
-            //}
+            if (CauHinh.Check_Config() == 1)
+            {
+                MessageBox.Show("Chuỗi cấu hình không tồn tại");// Xử lý cấu hình
+                ProcessConfig();
+            }
+            if (CauHinh.Check_Config() == 2)
+            {
+                MessageBox.Show("Chuỗi cấu hình không phù hợp");// Xử lý cấu hình
+                ProcessConfig();
+            }
         }
 
         public void ProcessLogin()
@@ -91,7 +93,14 @@ namespace md_Login
             }
             Tt = true;
             GetChangeKQ.Invoke(this, EventArgs.Empty);
-            
+
+        }
+
+
+        public void ProcessConfig()
+        {
+            Tt = true;
+            GetChangeKQ.Invoke(this, EventArgs.Empty);
         }
     }
 }
