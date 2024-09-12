@@ -99,6 +99,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\mdDB\mdDB.csproj">
+      <Project>{27EEC1C6-82E9-469C-9D3C-F6A24BE1EF96}</Project>
+      <Name>mdDB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\md_Login\md_Login.csproj">
       <Project>{E43D6DCB-C67E-48A8-9115-EC4863A651ED}</Project>
       <Name>md_Login</Name>
