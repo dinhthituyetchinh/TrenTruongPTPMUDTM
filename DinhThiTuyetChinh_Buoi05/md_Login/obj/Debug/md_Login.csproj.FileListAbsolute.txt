@@ -1,0 +1,9 @@
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\obj\Debug\md_Login.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\obj\Debug\md_Login.ucLogin.resources
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\obj\Debug\md_Login.csproj.GenerateResource.Cache
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\bin\Debug\md_Login.dll
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\bin\Debug\md_Login.pdb
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\bin\Debug\ThuVien.dll
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\bin\Debug\ThuVien.pdb
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\obj\Debug\md_Login.dll
+E:\LuuDuLieuSinhVien\2001215640_DinhThiTuyetChinh\DinhThiTuyetChinh_Buoi05\md_Login\obj\Debug\md_Login.pdb
