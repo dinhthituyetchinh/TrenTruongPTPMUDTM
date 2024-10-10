@@ -5,3 +5,10 @@ E:\LuuDuLieuSinhVien\DTTC\Buoi08\DAL\bin\Debug\DTO.pdb
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DAL\obj\Debug\DAL.dll
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DAL\obj\Debug\DAL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\bin\Debug\DAL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\bin\Debug\DAL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\bin\Debug\DTO.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\bin\Debug\DTO.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\obj\Debug\DAL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DAL\obj\Debug\DAL.pdb

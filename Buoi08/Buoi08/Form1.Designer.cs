@@ -36,8 +36,8 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnDong = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnWord = new System.Windows.Forms.Button();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.cmbMH = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -118,23 +118,23 @@
             this.btnDong.Text = "Dong";
             this.btnDong.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnWord
             // 
-            this.button5.Location = new System.Drawing.Point(847, 380);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnWord.Location = new System.Drawing.Point(847, 380);
+            this.btnWord.Name = "btnWord";
+            this.btnWord.Size = new System.Drawing.Size(75, 23);
+            this.btnWord.TabIndex = 8;
+            this.btnWord.Text = "Word";
+            this.btnWord.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnExcel
             // 
-            this.button6.Location = new System.Drawing.Point(847, 456);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnExcel.Location = new System.Drawing.Point(847, 456);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(75, 23);
+            this.btnExcel.TabIndex = 9;
+            this.btnExcel.Text = "Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
             // 
             // cmbMH
             // 
@@ -216,8 +216,8 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cmbMH);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnExcel);
+            this.Controls.Add(this.btnWord);
             this.Controls.Add(this.btnDong);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
@@ -245,8 +245,8 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnDong;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnWord;
+        private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.ComboBox cmbMH;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;

@@ -4,3 +4,9 @@ E:\LuuDuLieuSinhVien\DTTC\Buoi08\DTO\obj\Debug\DTO.dll
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DTO\obj\Debug\DTO.pdb
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DTO\bin\Debug\DTO.dll.config
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\bin\Debug\DTO.dll.config
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\bin\Debug\DTO.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\bin\Debug\DTO.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\obj\Debug\DTO.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\DTO\obj\Debug\DTO.pdb

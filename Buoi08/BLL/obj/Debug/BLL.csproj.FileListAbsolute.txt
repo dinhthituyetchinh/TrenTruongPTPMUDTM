@@ -7,3 +7,12 @@ E:\LuuDuLieuSinhVien\DTTC\Buoi08\BLL\bin\Debug\DTO.pdb
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\BLL\obj\Debug\BLL.dll
 E:\LuuDuLieuSinhVien\DTTC\Buoi08\BLL\obj\Debug\BLL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\BLL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\BLL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\DAL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\DTO.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\DAL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\bin\Debug\DTO.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\obj\Debug\BLL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi08\BLL\obj\Debug\BLL.pdb

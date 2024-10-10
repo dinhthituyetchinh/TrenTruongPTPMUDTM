@@ -24,6 +24,22 @@ namespace Buoi08
             this.cmbKhoa.SelectedValueChanged += cmbKhoa_SelectedValueChanged;
             this.cmbLop.SelectedIndexChanged +=cmbLop_SelectedIndexChanged;
             this.btnDong.Click += btnDong_Click;
+            this.btnWord.Click += btnWord_Click;
+        }
+
+        void btnWord_Click(object sender, EventArgs e)
+        {
+            ////Demo bai word mau
+
+            //WordExport w = new WordExport();
+            //w.QuyetDinhKhenThuong("10", "10", "2024", "Nguyen Van A", "123456");
+
+            WordExport w = new WordExport();
+            SinhVien sv = new SinhVien();
+            sv.HoTen = "Nguyen Van A";
+            sv.NgaySinh = DateTime.Now;
+            sv.MaLop = "1212";
+            w.ThongTinSinhVien(sv);
         }
 
         void btnDong_Click(object sender, EventArgs e)
