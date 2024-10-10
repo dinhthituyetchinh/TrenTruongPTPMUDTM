@@ -25,6 +25,39 @@ namespace Buoi08
             this.cmbLop.SelectedIndexChanged +=cmbLop_SelectedIndexChanged;
             this.btnDong.Click += btnDong_Click;
             this.btnWord.Click += btnWord_Click;
+            this.btnExcel.Click += btnExcel_Click;
+        }
+
+        void btnExcel_Click(object sender, EventArgs e)
+        {
+            ExcelExport excel = new ExcelExport();
+
+
+            if (dataGridViewKhoa.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để xuất");
+                return;
+            }
+
+            List<Khoa> pListKhoa = new List<Khoa>();
+
+            // Đổ dữ liệu vào danh sách
+            foreach (DataGridViewRow item in dataGridViewKhoa.Rows)
+            {
+                Khoa i = new Khoa();
+                i.MaKhoa = item.Cells[0].Value.ToString();
+                i.TenKhoa = item.Cells[1].Value.ToString();
+                pListKhoa.Add(i);
+            }
+            string path = string.Empty;
+
+            excel.ExportKhoa(pListKhoa, ref path, false);
+            // Confirm for open file was exported
+            if (!string.IsNullOrEmpty(path) && MessageBox.Show("Bạn có muốn mở file không?", "Thông tin", MessageBoxButtons.YesNo, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start(path);
+            }
+
         }
 
         void btnWord_Click(object sender, EventArgs e)
@@ -114,6 +147,9 @@ namespace Buoi08
             this.cmbMH.DataSource = dtMH.getDSMH();
             this.cmbMH.DisplayMember = "TenMonHoc";
             this.cmbMH.ValueMember = "MaMonHoc";
+
+
+            this.dataGridViewKhoa.DataSource = dtKhoa.getDSKhoa();
         }
     }
 }

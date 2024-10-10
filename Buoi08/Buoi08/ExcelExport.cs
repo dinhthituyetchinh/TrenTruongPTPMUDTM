@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using DTO;
 namespace Buoi08
 {
     public class ExcelExport
@@ -967,11 +967,11 @@ namespace Buoi08
                 return false;
             }
 
-            // Set the So thu tu
-            for (int i = 1; i <= dataSource.Count; i++)
-            {
-               dataSource[i - 1].STT = i.ToString();
-            }
+            //// Set the So thu tu
+            //for (int i = 1; i <= dataSource.Count; i++)
+            //{
+            //    dataSource[i - 1].STT = i.ToString();
+            //}
           //  string tongSo = dataSource.Sum(t => t.SoLuong).Value.ToString();
             // Create replacer
             Dictionary<string, string> replacer = new Dictionary<string, string>();
