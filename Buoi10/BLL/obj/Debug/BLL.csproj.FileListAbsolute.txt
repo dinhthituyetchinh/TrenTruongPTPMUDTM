@@ -1,0 +1,16 @@
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\BLL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\BLL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\DAL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\DTO.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\FireSharp.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Newtonsoft.Json.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\DAL.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\DTO.pdb
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Newtonsoft.Json.xml
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\obj\Debug\BLL.dll
+E:\LuuDuLieuSinhVien\DTTC\TrenTruongPTPMUDTM\Buoi10\BLL\obj\Debug\BLL.pdb
