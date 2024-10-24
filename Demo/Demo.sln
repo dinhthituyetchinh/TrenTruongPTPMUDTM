@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FB", "FB\FB.csproj", "{4ED118E8-4D18-45E2-A31F-4741F81DAF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_FB", "DAL_FB\DAL_FB.csproj", "{CF60C556-2E21-4A53-B506-15A60A7FC9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{60A06DCA-5EDB-4B96-BE85-1997F072F99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ED118E8-4D18-45E2-A31F-4741F81DAF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED118E8-4D18-45E2-A31F-4741F81DAF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED118E8-4D18-45E2-A31F-4741F81DAF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED118E8-4D18-45E2-A31F-4741F81DAF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF60C556-2E21-4A53-B506-15A60A7FC9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF60C556-2E21-4A53-B506-15A60A7FC9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF60C556-2E21-4A53-B506-15A60A7FC9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF60C556-2E21-4A53-B506-15A60A7FC9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A06DCA-5EDB-4B96-BE85-1997F072F99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A06DCA-5EDB-4B96-BE85-1997F072F99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A06DCA-5EDB-4B96-BE85-1997F072F99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A06DCA-5EDB-4B96-BE85-1997F072F99A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
