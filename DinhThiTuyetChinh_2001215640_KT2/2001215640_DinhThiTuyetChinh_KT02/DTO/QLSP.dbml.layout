@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLSP">
+  <DataContextMoniker Name="/QLSPDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7c1e16e0-be2c-44f9-94fd-fbdd13b4bb82" absoluteBounds="0.75, 4.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/QLSPDataContext/LoaiSanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b36df2c-6480-48a5-996a-9bc424a770b2" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d88849d6-88dc-4f7b-a160-ca4f26d1ed70" absoluteBounds="0.75, 1, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QLSPDataContext/NhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="73650fab-f1f9-4d4b-88de-c86946c13705" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96f57f3d-a51c-4b81-a3c4-6b3c42c54b3b" absoluteBounds="3.5, 0.875, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/QLSPDataContext/PhieuNhap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a32cdd3-843b-471b-9b4c-5f5a2bd11290" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7689ab6-6e41-47e6-b559-93c8b49bef02" absoluteBounds="3.5, 3.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/QLSPDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="732869e5-3321-4f28-b9f7-d5a176cd6830" absoluteBounds="3.515, 4.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0511fe3-5072-4469-8937-287550caec4b" absoluteBounds="6.25, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLSPDataContext/ChiTietPhieuNhap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e8ea631-8e71-45af-9f87-b16c8f0904dc" absoluteBounds="6.265, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.69314697265625); (3.5 : 1.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSPDataContext/NhaCungCap/NhaCungCap_PhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="d88849d6-88dc-4f7b-a160-ca4f26d1ed70" />
+        <classShapeMoniker Id="96f57f3d-a51c-4b81-a3c4-6b3c42c54b3b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.72199625651042); (3.5 : 4.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSPDataContext/LoaiSanPham/LoaiSanPham_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="7c1e16e0-be2c-44f9-94fd-fbdd13b4bb82" />
+        <classShapeMoniker Id="e7689ab6-6e41-47e6-b559-93c8b49bef02" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.66429768880208); (6.25 : 1.66429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSPDataContext/PhieuNhap/PhieuNhap_ChiTietPhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="96f57f3d-a51c-4b81-a3c4-6b3c42c54b3b" />
+        <classShapeMoniker Id="e0511fe3-5072-4469-8937-287550caec4b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.63544840494792); (7.25 : 4.63544840494792); (7.25 : 2.45359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSPDataContext/SanPham/SanPham_ChiTietPhieuNhap" />
+      <nodes>
+        <classShapeMoniker Id="e7689ab6-6e41-47e6-b559-93c8b49bef02" />
+        <classShapeMoniker Id="e0511fe3-5072-4469-8937-287550caec4b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
