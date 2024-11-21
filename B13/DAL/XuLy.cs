@@ -33,18 +33,18 @@ namespace DAL
 
             DataTable symbols = codebook.Apply(data);
             int[][] inputs = symbols.ToArray<int>(
-                        "ds_nnlt",
-                        "ds_th_nnlt",
-                        "ds_lthdt",
-                        "ds_th_lthdt",
-                        "ds_ctdl_gt",
-                        "ds_th_ctdlgt",
-                        "ds_csdl",
-                        "ds_th_csdl",
-                        "ds_toancc"
+                        "dc_nnlt",
+                        "dc_th_nnlt",
+                        "dc_lthdt",
+                        "dc_th_lthdt",
+                        "dc_ctdl_gt",
+                        "dc_th_ctdlgt",
+                        "dc_csdl",
+                        "dc_th_csdl",
+                        "dc_toancc"
                         );
             int[] outputs = symbols.ToArray<int>("chuyennganh");
-         
+       
         }
     }
 }

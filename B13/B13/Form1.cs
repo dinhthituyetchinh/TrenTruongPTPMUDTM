@@ -21,7 +21,17 @@ namespace B13
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            var items = new string[] { "A", "B", "C", "D", "F" };
 
+            cmbNMLT.Items.AddRange(items);
+            cmbTHNMLT.Items.AddRange(items);
+            cmbLTHDT.Items.AddRange(items);
+            cmbTHLTHDT.Items.AddRange(items);
+            cmbCTDLGT.Items.AddRange(items);
+            cmbTHCTDLGT.Items.AddRange(items);
+            cmbCSDL.Items.AddRange(items);
+            cmbTHCSDL.Items.AddRange(items);
+            cmbTCC.Items.AddRange(items);
         }
     }
 }
