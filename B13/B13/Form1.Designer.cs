@@ -70,6 +70,7 @@
             this.btnGoiY.TabIndex = 1;
             this.btnGoiY.Text = "Gợi ý";
             this.btnGoiY.UseVisualStyleBackColor = true;
+            this.btnGoiY.Click += new System.EventHandler(this.btnGoiY_Click);
             // 
             // label1
             // 

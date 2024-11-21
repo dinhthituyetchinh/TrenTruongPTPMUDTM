@@ -25,7 +25,7 @@ namespace DAL
             return dt;
         }
         [Obsolete]
-        public void thuatToan(string nmlt, string thnnlt, string lthdt, string thlthdt, string ctdlgt, string thctdlgt, string csdl, string thcsdl, string tcc)
+        public double thuatToan(string nmlt, string thnnlt, string lthdt, string thlthdt, string ctdlgt, string thctdlgt, string csdl, string thcsdl, string tcc)
         {
             DataTable data = loadDL();
 
@@ -44,7 +44,28 @@ namespace DAL
                         "dc_toancc"
                         );
             int[] outputs = symbols.ToArray<int>("chuyennganh");
-       
+
+            var id3learning = new ID3Learning()
+            {
+                new DecisionVariable("dc_nnlt", 5),
+                new DecisionVariable("dc_th_nnlt", 5),
+                new DecisionVariable("dc_lthdt", 5),
+                new DecisionVariable("dc_th_lthdt", 5),
+                new DecisionVariable("dc_ctdl_gt", 5),
+                new DecisionVariable("dc_th_ctdlgt", 5),
+                new DecisionVariable("dc_th_ctdlgt", 5),
+                new DecisionVariable("dc_csdl", 5),
+                new DecisionVariable("dc_toancc", 5)
+
+               
+            };
+
+            DecisionTree DecisionTree = id3learning.Learn(inputs, outputs);
+            double err = new ZeroOneLoss(outputs).Loss(DecisionTree.Decide(inputs));
+            return err;
         }
+
+
+
     }
 }
